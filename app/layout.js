@@ -1,13 +1,4 @@
 import { Inter } from "next/font/google";
-import "./styles/globals.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'aos/dist/aos';
-import 'aos/dist/aos.css';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-
-// import 'popper.js';
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -18,6 +9,31 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+        <head>
+    <title>MedHub</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Work+Sans:300,400,700" rel="stylesheet"/>
+    <link rel="stylesheet" href="/fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/css/jquery-ui.css" />
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="/css/animate.css" />
+    
+    <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css" />
+  
+    <link rel="stylesheet" href="/css/aos.css" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+  
+    
+  </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
