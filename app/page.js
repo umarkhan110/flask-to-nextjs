@@ -53,25 +53,25 @@ export default function Home() {
               </div>
             </div>
             <div className="row border-responsive">
-              <main className="carousel-container bodycarusel">
-                <div className="carousel">
-                  <div className="item active">
-                    <img src="/images/carusel1.jpg" alt="Image 1" />
-                    <p className="caption"> Health and Traveling</p>
-                  </div>
-                  <div className="item">
-                    <img src="/images/carusel2.jpg" alt="Image 2" />
-                    <p className="caption">Happy clients</p>
-                  </div>
-                  <div className="item">
-                    <img src="/images/carusel3.jpg" alt="Image 3" />
-                    <p className="caption">Best Specialists</p>
-                  </div>
-                </div>
-                <button className="btn prev">Prev</button>
-                <button className="btn next">Next</button>
-                <div className="dots"></div>
-              </main>
+            <main className="carousel-container bodycarusel">
+            <div className="carousel">
+              <div className="item active">
+                <img src="/images/carusel1.jpg" alt="Image 1" />
+                <p className="caption"> Health and Traveling</p>
+              </div>
+              <div className="item">
+                <img src="/images/carusel2.jpg" alt="Image 2" />
+                <p className="caption">Happy clients</p>
+              </div>
+              <div className="item">
+                <img src="/images/carusel3.jpg" alt="Image 3" />
+                <p className="caption">Best Specialists</p>
+              </div>
+            </div>
+            <button className="btn prev">Prev</button>
+            <button className="btn next">Next</button>
+            <div className="dots"></div>
+          </main>
 
             </div>
           </div>
@@ -108,78 +108,78 @@ export default function Home() {
   </div> --> */}
 
 
-          <div class="site-section ">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 text-center">
-                  <span class="caption d-block mb-2 font-secondary font-weight-bold"> Explore Our Services</span>
-                  <h2 class="site-section-heading text-uppercase text-center font-secondary">MedHub</h2>
+          <div className="site-section ">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12 text-center">
+                  <span className="caption d-block mb-2 font-secondary font-weight-bold"> Explore Our Services</span>
+                  <h2 className="site-section-heading text-uppercase text-center font-secondary">MedHub</h2>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12 block-13 nav-direction-white">
-                  <div class="nonloop-block-13 owl-carousel">
+              <div className="row">
+                <div className="col-md-12 block-13 nav-direction-white">
+                  <div className="nonloop-block-13 owl-carousel">
                     <a href="/hair-transplant">
-                      <div class="media-image">
-                        <img src="/images/dany.png" alt="Image" class="img-fluid" />
-                        <div class="media-image-body">
-                          <h2 class="font-secondary text-uppercase">Hair Transplant</h2>
+                      <div className="media-image">
+                        <img src="/images/dany.png" alt="Image" className="img-fluid" />
+                        <div className="media-image-body">
+                          <h2 className="font-secondary text-uppercase">Hair Transplant</h2>
                           {/* <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptate.</p>
-                  <p><a href="#" class="btn btn-primary text-white px-4">Learn More</a></p> --> */}
+                  <p><a href="#" className="btn btn-primary text-white px-4">Learn More</a></p> --> */}
                         </div>
                       </div>
                     </a>
                     <a href="/dental-treatments">
-                      <div class="media-image">
-                        <img src="/images/person.jpg" alt="Image" class="img-fluid h-25" />
+                      <div className="media-image">
+                        <img src="/images/person.jpg" alt="Image" className="img-fluid h-25" />
 
-                        <div class="media-image-body">
-                          <h2 class="font-secondary text-uppercase">Dental Treatments</h2>
+                        <div className="media-image-body">
+                          <h2 className="font-secondary text-uppercase">Dental Treatments</h2>
                           {/* <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptate.</p>
-                  <p><a href="#" class="btn btn-primary text-white px-4">Learn More</a></p> --> */}
+                  <p><a href="#" className="btn btn-primary text-white px-4">Learn More</a></p> --> */}
                         </div>
                       </div>
                     </a>
                     <a href="/orthodontics">
-                      <div class="media-image">
-                        <img src="/images/Mahmut.jpg" alt="Image" class="img-fluid " />
+                      <div className="media-image">
+                        <img src="/images/Mahmut.jpg" alt="Image" className="img-fluid " />
 
-                        <div class="media-image-body">
-                          <h2 class="font-secondary text-uppercase"> Orthodontics </h2>
+                        <div className="media-image-body">
+                          <h2 className="font-secondary text-uppercase"> Orthodontics </h2>
                           {/* <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptate.</p>
-                  <p><a href="#" class="btn btn-primary text-white px-4">Learn More</a></p> --> */}
+                  <p><a href="#" className="btn btn-primary text-white px-4">Learn More</a></p> --> */}
                         </div>
                       </div>
                     </a>
                     <a href="/esthetic-dentistry">
-                      <div class="media-image">
-                        <img src="/images/person2.jpg" alt="Image" class="img-fluid" />
-                        <div class="media-image-body">
-                          <h2 class="font-secondary text-uppercase">Esthetic Dentistry</h2>
+                      <div className="media-image">
+                        <img src="/images/person2.jpg" alt="Image" className="img-fluid" />
+                        <div className="media-image-body">
+                          <h2 className="font-secondary text-uppercase">Esthetic Dentistry</h2>
                           {/* <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptate.</p>
-                  <p><a href="#" class="btn btn-primary text-white px-4">Learn More</a></p> --> */}
+                  <p><a href="#" className="btn btn-primary text-white px-4">Learn More</a></p> --> */}
                         </div>
                       </div>
                     </a>
                     <a href="/dental-implant">
-                      <div class="media-image">
-                        <img src="/images/Nermin.jpg" alt="Image" class="img-fluid" />
+                      <div className="media-image">
+                        <img src="/images/Nermin.jpg" alt="Image" className="img-fluid" />
 
-                        <div class="media-image-body">
-                          <h2 class="font-secondary text-uppercase"> Dental Implant </h2>
+                        <div className="media-image-body">
+                          <h2 className="font-secondary text-uppercase"> Dental Implant </h2>
                           {/* <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptate.</p>
-                  <p><a href="#" class="btn btn-primary text-white px-4">Learn More</a></p> --> */}
+                  <p><a href="#" className="btn btn-primary text-white px-4">Learn More</a></p> --> */}
                         </div>
                       </div>
                     </a>
                     <a href="/rhinoplasty">
-                      <div class="media-image">
-                        <img src="/images/person3.jpg" alt="Image" class="img-fluid" />
+                      <div className="media-image">
+                        <img src="/images/person3.jpg" alt="Image" className="img-fluid" />
 
-                        <div class="media-image-body">
-                          <h2 class="font-secondary text-uppercase">Rhinoplasty</h2>
+                        <div className="media-image-body">
+                          <h2 className="font-secondary text-uppercase">Rhinoplasty</h2>
                           {/* <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptate.</p>
-                  <p><a href="#" class="btn btn-primary text-white px-4">Learn More</a></p> --> */}
+                  <p><a href="#" className="btn btn-primary text-white px-4">Learn More</a></p> --> */}
                         </div>
                       </div>
                     </a>
